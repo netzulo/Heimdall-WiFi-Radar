@@ -17,7 +17,7 @@ sleep(0.5)
 GPIO.output(17,1)
 
 # information for user
-print "Chip has been reset"
+print("Chip has been reset")
 
 #clean exit
 GPIO.cleanup()

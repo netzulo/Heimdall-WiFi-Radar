@@ -93,4 +93,4 @@ def reset_phat():
 
 if __name__ == '__main__':
 	read_vendors('data/vendors.tsv')
-	print json.dumps(get_sniffer_data(), sort_keys=True, indent=4, separators=(',', ': '))
+	print(json.dumps(get_sniffer_data(), sort_keys=True, indent=4, separators=(',', ': ')))

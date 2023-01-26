@@ -22,7 +22,7 @@ GPIO.output(27,1)
 sleep(0.5)
 
 # information for user
-print "Chip is in write mode"
+print("Chip is in write mode")
 
 # clean exit
 GPIO.cleanup()
